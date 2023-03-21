@@ -1,27 +1,37 @@
 module.exports = {
   base: "/",
-  title: "Prague GM Events",
-  heading: "GM Prague 2023",
-  subHeading: "1. January - 10. January 2023",
-  calendarHeading: "January 2023",
-  sumbitEventLink: "https://pwn.xyz/",
+  title: "Naples GM Events",
+  heading: "GM Naples 2023",
+  dateSubheading: "22. - 28. May 2023",
+  subHeading:
+    "We're bringing the Ethereum community in Italy to Naples! GM events website shows you all events happening around Spaghetteth in Naples and allows anyone to add and update their side event.",
+  calendarHeading: "May 2023",
+  sumbitEventLink: "https://gmevents.typeform.com/naples",
   startDate: {
-    day: 1,
-    month: 1,
+    day: 22,
+    month: 5,
     year: 2023,
   },
   endDate: {
-    day: 10,
-    month: 1,
+    day: 28,
+    month: 5,
     year: 2023,
   },
   daysInFirstMonth: 31,
-  startHour: 9,
-  endHour: 22,
-  duarationInDays: 1,
-  dayNames: ["Sunday"],
-  layout: 1, // 0 - banner layout, 1 - venue layout
-  bannerPath: "logo_gm_events.svg", // only if banner layout
+  startHour: 8,
+  endHour: 24,
+  duarationInDays: 7,
+  dayNames: [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday",
+  ],
+  layout: 0, // 0 - banner layout, 1 - venue layout
+  bannerPath: "Spaghetteth_Naples.png", // only if banner layout
   venues: [
     {
       name: "Paralelni Polis",
@@ -55,8 +65,8 @@ module.exports = {
         link: "/calendar/",
       },
       {
-        text: "PWN",
-        link: "https://pwn.xyz/",
+        text: "Spaghetteth II",
+        link: "https://naples.spaghett-eth.com/",
       },
     ],
     logo: "logo_gm_events.svg",
