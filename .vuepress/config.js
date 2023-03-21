@@ -1,30 +1,75 @@
 module.exports = {
-  // Use the name of the repo if the content is served from GitHub Pages
-  // base: '/PragueBlockchainWeek/',
-  // Leave the base as '/' if serving the content from a custom domain
-  base: '/',
-  title: 'Naples GM Events',
+  base: "/",
+  title: "Naples GM Events",
+  heading: "GM Naples 2023",
+  dateSubheading: "22. - 28. May 2023",
+  subHeading:
+    "We're bringing the Ethereum community in Italy to Naples! GM events website shows you all events happening around Spaghetteth in Naples and allows anyone to add and update their side event.",
+  calendarHeading: "May 2023",
+  sumbitEventLink: "https://gmevents.typeform.com/naples",
+  startDate: {
+    day: 22,
+    month: 5,
+    year: 2023,
+  },
+  endDate: {
+    day: 28,
+    month: 5,
+    year: 2023,
+  },
+  daysInFirstMonth: 31,
+  startHour: 8,
+  endHour: 24,
+  duarationInDays: 7,
+  dayNames: [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday",
+  ],
+  layout: 0, // 0 - banner layout, 1 - venue layout
+  bannerPath: "Spaghetteth_Naples.png", // only if banner layout
+  venues: [
+    {
+      name: "Paralelni Polis",
+      desc: "yay",
+      path: "logo_gm_events.svg",
+    },
+  ], // only if venue layout
   head: [
-    ['link', { rel: 'manifest', href: '/manifest.json' }],
-    ['link', { rel: 'icon', href: '/logo-black.png' }],
-    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
+    ["link", { rel: "manifest", href: "/manifest.json" }],
+    ["link", { rel: "icon", href: "./logo_gm_events.svg" }],
+    [
+      "meta",
+      {
+        name: "viewport",
+        content: "width=device-width,initial-scale=1,user-scalable=no",
+      },
+    ],
   ],
   themeConfig: {
     nav: [
       {
-        text: 'Events',
-        link: '/events/'
+        text: "Home",
+        link: "/",
       },
       {
-        text: 'Calendar',
-        link: '/calendar/'
+        text: "Events",
+        link: "/events/",
       },
       {
-        text: 'Submit an Event',
-        link: 'https://gmevents.typeform.com/naples'
-      }
+        text: "Calendar",
+        link: "/calendar/",
+      },
+      {
+        text: "Spaghetteth II",
+        link: "https://naples.spaghett-eth.com/",
+      },
     ],
-    logo: 'logo.png',
+    logo: "logo_gm_events.svg",
     search: false,
     // Assumes GitHub. Can also be a full GitLab url.
     // repo: 'JosefJ/PragueBlockchainWeek',
@@ -37,10 +82,10 @@ module.exports = {
     // if your docs are not at the root of the repo:
     // docsDir: 'docs',
     // if your docs are in a specific branch (defaults to 'master'):
-    docsBranch: 'master',
+    docsBranch: "master",
     // defaults to false, set to true to enable
-    editLinks: true
+    editLinks: true,
     // custom text for edit link. Defaults to "Edit this page"
     // editLinkText: 'Help us improve this page!'
-  }
-}
+  },
+};
