@@ -31,7 +31,7 @@ module.exports = {
     "Sunday",
   ],
   layout: 0, // 0 - banner layout, 1 - venue layout
-  bannerPath: "Spaghetteth_Naples.png", // only if banner layout
+  bannerPath: "Spaghetteth_Naples_1.png", // only if banner layout
   venues: [
     {
       name: "Paralelni Polis",
