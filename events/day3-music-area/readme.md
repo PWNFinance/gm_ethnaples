@@ -48,7 +48,9 @@ name: DAY 3 - MUSIC AREA SPAGHETTETH
 # Two spaces before the hyphen, four spaces before the text. _No_ tabs allowed.
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
 synopsis:
-  - Starting with Music & NFT Panel (tba), following at 6 PM with Aperitivo. 7.30 PM STE Showcase. A rising star of Neapolitan music, this 26-year-old artist is a force to be reckoned with. Born in Lagos, Nigeria and raised by a single mother in Naples, she is capturing the hearts of many with her soulful voice. 8.30 PM Closing Party - Karaoke & more. 
+  - Starting with Music & NFT Panel (tba), following by Aperitivo. 
+  - 7.30 PM STE Showcase. A rising star of Neapolitan music, this 26-year-old artist is a force to be reckoned with. Born in Lagos, Nigeria and raised by a single mother in Naples, she is capturing the hearts of many with her soulful voice. 
+  - 8.30 PM Closing Party - Karaoke & more. 
   - If you bring your own instruments, we will start a jam session!
 
 # The date should be in the format year-month-day (ISO 8601).
