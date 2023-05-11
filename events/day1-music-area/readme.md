@@ -28,7 +28,7 @@
 ###########
 # The title of the page, displayed by the browser on the title of the window.
 # Ideally this is the same as the name of the event.
-title: DAY 1 - MUSIC AREA SPAGHETTEH
+title: DAY 1 - MUSIC AREA SPAGHETTETH
 
 # Description for this event. This will be rendered as a <meta> tag in the HTML,
 # and displayed on the /events page. Keep it short.
@@ -40,7 +40,7 @@ description: You can expect music area presentation with brief presentation of t
 #####################
 # The name of the event you're creating.
 # Ideally this is the same as the title.
-name: DAY 1 - MUSIC AREA SPAGHETTEH
+name: DAY 1 - MUSIC AREA SPAGHETTETH
 
 # There _needs_ to be one hyphen before each paragraph.
 # Linebreaks are ignored, but they _must_ start with two spaces.
