@@ -33,7 +33,7 @@ title: DAY 1 - MUSIC AREA SPAGHETTETH
 # Description for this event. This will be rendered as a <meta> tag in the HTML,
 # and displayed on the /events page. Keep it short.
 # Linebreaks are ignored, but they _must_ start with two spaces.
-description: You can expect music area presentation with brief presentation of the host - Onlymusix with Antonino Abbate, (CEO of Onlytech Industries). At 6 PM Aperitivo and Opening Party. Dj set by Psychederica. Funky / Hip-Hop / Electronic
+description: You can expect music area presentation with brief presentation of the host - Onlymusix with Antonino Abbate, (CEO of Onlytech Industries). At 6 PM Aperitivo and Opening Party. Dj set by Psychederica (Funky / Hip-Hop / Electronic).
 
 #####################
 ### EVENT DETAILS ###
@@ -48,7 +48,7 @@ name: DAY 1 - MUSIC AREA SPAGHETTETH
 # Two spaces before the hyphen, four spaces before the text. _No_ tabs allowed.
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
 synopsis:
-  - You can expect music area presentation with brief presentation of the host - Onlymusix with Antonino Abbate, (CEO of Onlytech Industries). At 6 PM Aperitivo and Opening Party. Dj set by Psychederica. Funky / Hip-Ho
+  - You can expect music area presentation with brief presentation of the host - Onlymusix with Antonino Abbate, (CEO of Onlytech Industries). At 6 PM Aperitivo and Opening Party. Dj set by Psychederica (Funky / Hip-Hop / Electronic).
 
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28
