@@ -65,7 +65,7 @@ time: '15:00'
 endTime: '18:00'
 
 # The URL where to acquire the tickets. Can be left empty.
-tickets: 
+tickets: https://twitter.com/MetalSwapNet/status/1659153109447262209
 
 # If the entrance is free, set zero (0) as the price, or leave it empty.
 # _Don't_ write the currency symbol (Euro symbol will be used).
